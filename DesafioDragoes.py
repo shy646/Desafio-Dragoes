@@ -1,7 +1,7 @@
-C = int(input("Digite o número de casos de teste: "))
+C = int(input())
 
 for _ in range(C):
-    N = int(input("Digite o nível de energia: "))
+    N = int(input())
 
     if N > 8000:
         print("Mais de 8000!")
